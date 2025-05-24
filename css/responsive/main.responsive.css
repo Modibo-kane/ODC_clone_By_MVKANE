@@ -1,0 +1,49 @@
+@media (max-width: 1024px) {
+  .aff-ref-cont1 {
+    display: none;
+    color:rgba(223, 146, 3, 0.995)
+  }
+
+  .aff-ref-cont2 {
+    width: 100%;
+    padding-top: 10vh;
+  }
+
+  .navbar {
+    left: 0;
+    width: 100%;
+  }
+
+  .programmeCard {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .programmeCard {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 0 1rem;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .recheche {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  input[type="search"] {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .profile {
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}

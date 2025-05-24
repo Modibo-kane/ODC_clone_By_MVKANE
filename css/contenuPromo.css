@@ -1,0 +1,416 @@
+.contenuPromoContainer {
+    width: 80%;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    /* background-color: rebeccapurple; */
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: #fff;
+    /* padding-bottom: 10vh; */
+    /* background-color: blueviolet; */
+    
+}
+
+ .entete {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* background-color: red; */
+}
+
+.entete > p > span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #038C7F;
+    text-align: center;
+}
+
+.entete > button{
+    background-color: #038C7F;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ .entete_cart_cont {
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .barreRecherche {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barreRechercheInput{
+    width: 60%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    /* background-color: #f1f0f0; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+}
+
+.categorie{
+    width: 15%;
+    height: 100%;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+option{
+    width: 100%;
+    height: 100%;
+    border-radius: none;
+    padding: 10px;
+    /* font-size: 18px; */
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.affichage{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.grille{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.liste{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contenuPromo {
+    width: 100%;
+    min-height: 65%;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    /* padding-bottom:40px ; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(20%, 3fr);
+    grid-template-rows: repeat(20%, 3fr);
+    grid-gap: 20px; */
+}
+
+
+
+ .cardPromoContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.cardPromo {
+    width: 30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* scale: 1; */
+    gap: 10px;
+    transition: scale 0.8s ease-in-out;
+    /* flex-wrap: wrap; */
+}
+
+.cardPromo:hover {
+    scale: 1.05;
+}
+
+ .power {
+    width: auto;
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 251, 252);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    gap: 10px;
+    padding: 5px;
+}
+
+ .power > button {
+    width: 80px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(241, 68, 68, 0.2);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.power > .off{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    background-color: rgb(36, 251, 3, 0.2);
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.power > .off > i{
+    color: green;
+}
+
+ hr {
+    background-color: #000;
+    width: 100%;
+}
+
+.promoInfos {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ .nbreApprenantPromo {
+    width: 100%;
+   /* height: 100%;*/
+   background-color: rgba(33, 247, 5, 0.2);
+   padding: 10px;
+   border-radius: 10px;
+    text-align: start;
+    font-weight: 700;
+}
+
+ .details >button {
+    width: auto;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: orange;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.promoInfos > p > .spanPromotion {
+    /* font-size: 20px; */
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+.popAjouterPromo{
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; 
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.5s ease-in-out all;
+
+}
+
+#formAddPromo{
+    width: 30%;
+    /* height: 45%; */
+    background-color: #fff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px;
+    font-size: clamp(10px, 14px, 20px);
+}
+
+.formAddPromoTitre{
+    width: 100%;
+}
+
+.champs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap:1px;
+}
+
+label > input[type="text"]{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #d4d4d4;
+    outline: none;
+    background-color: #fff;
+}
+
+.dates{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+label > input[type="date"]{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #d4d4d4;
+    outline: none;
+    background-color: #fff;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.image > span{
+    color: #d4d4d4;
+}
+
+.promotionPhoto{
+    width: 25%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: dashed 2px #d4d4d4;
+    outline: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotionPhoto > span{
+    color: orange;
+}
+
+.bouton{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.bouton > .annuler{
+    width: auto;
+    border-radius: 5px;
+    border: none;
+    /* background-color: #038C7F; */
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: solid 2px #d4d4d4;
+    cursor: pointer;
+}
+
+.creer{
+    /* color: #fff; */
+    background-color: orangered;
+     width: auto;
+    border-radius: 5px;
+    border: none;
+    /* background-color: #038C7F; */
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    /* background-color: #fff; */
+    border: solid 2px #fefbfb;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}

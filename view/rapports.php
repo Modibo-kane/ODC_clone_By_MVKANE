@@ -1,0 +1,33 @@
+<?php 
+session_start();
+header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+header('Cache-Control: post-check=0, pre-check=0', false);
+header('Pragma: no-cache');
+
+if(!isset($_SESSION['user'])){
+    header('Location: ../index.php');
+    exit();
+}
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../css/chart3.css">
+  <link rel="stylesheet" href="../css/card1.css?v=123">
+  <link rel="stylesheet" href="../css/main.css?v=123">
+  <link rel="stylesheet" href="../css/chart.css?v=123">
+  <link rel="stylesheet" href="../css/chartCirculaires.css?v=123">
+  <link rel="stylesheet" href="../css/milieutableaudebord.css?v=123">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <?php include('../composant/side_bare.php'); ?>
+    <?php include('../composant/dashbord_nav.php'); ?>
+    <?php include('../composant/card1.php'); ?>
+    <?php include('../composant/tableaudebord.php'); ?>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+.ajouterApprenantCont{
+    top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; 
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  scale: 0;
+  opacity: 0;
+  transition: 0.8s ease-in-out all;
+    z-index: 10000;
+    padding: 50px;
+}
+
+.ajouterApprenantCont.active{
+    scale: 1;
+  opacity: 1;
+}
+
+.ajouterApprenantCont h1{
+    color:#038C7F;
+}
+
+.informationApprenant{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.informationApprenant h3{
+    display: flex;
+    width: 22%;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infosApprenantContainer, .infosTuteurContainer{
+    width: 100%;
+    box-shadow: rgb(0, 0, 0, 0.3) 0px 5px 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infosApprenantContainer label{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.infosTuteurContainer label{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.infosApprenantContainer label> pre{
+    width: 100%;
+     font-size: 15px;
+     font-weight: 600;
+}
+
+.infosApprenantContainer label pre input{
+    width: 64%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: solid 2px #d4d4d4;
+}
+
+.infosApprenantContainer label > input{
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: solid 2px #d4d4d4;
+}
+
+.infosTuteurContainer label > input{
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: solid 2px #d4d4d4;
+}
+
+
+.buttonAjouterApprenant{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.buttonAjouterApprenant button{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+    transition: all ease-in-out .8s;
+    cursor: pointer;
+}
+
+.annulerApprenant{
+    padding: 10px 10px ;
+    width: auto;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.3) 0 5px 8px;
+}
+
+.enregistrerApprenant{
+    padding: 10px 10px ;
+    width: auto;
+    background-color: #038C7F;
+    box-shadow: rgba(235, 235, 235, 0.3) 0 5px 8px;
+}
+
+.buttonAjouterApprenant button:hover{
+    scale: 1.05;
+}
+
+
+.fa_out{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transition: all ease-in-out 0.8s;
+    cursor: pointer;
+}
+
+.fa_out:hover{
+    scale: 1.2;
+}
+

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.aff-ref-cont1,
+.aff-ref-cont2 {
+    height: 100vh;
+    overflow: auto;
+}

@@ -1,0 +1,44 @@
+.canvasSeulCont{
+    flex-grow: 1;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+#pieChart{
+    cursor: crosshair;
+    width: 150px;
+    height: 150px;
+}
+
+.seul{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    width: 100%;
+    /* padding-left: 10px; */
+}
+
+.seul span {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.seul span p{
+    font-size: 10px;
+}
+
+.facont{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

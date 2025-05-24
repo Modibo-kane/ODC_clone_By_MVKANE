@@ -1,0 +1,83 @@
+[
+    {
+        "nom": "Telly tech ",
+        "date de debut": "2025-05-01",
+        "date de fin": "2025-05-09",
+        "referentiel": "DEV WEB\/MOBILE",
+        "image": "1747250992.jpeg",
+        "statut": "actif",
+        "nombre d'etudiant": "2 "
+    },
+    {
+        "nom": "Telly tech 2",
+        "date de debut": "2025-05-10",
+        "date de fin": "2025-05-31",
+        "referentiel": "BIG DATA",
+        "image": "1747251698.jpeg",
+        "statut": "actif",
+        "nombre d'etudiant": " 5"
+    },
+    {
+        "nom": "Telly tech 3",
+        "date de debut": "2025-05-03",
+        "date de fin": "2025-05-10",
+        "referentiel": "REF DIG",
+        "image": "1747256353.jpeg",
+        "statut": "actif",
+        "nombre d'etudiant": " 9"
+    },
+    {
+        "nom": "Telly tech ",
+        "date de debut": "2025-05-01",
+        "date de fin": "2025-05-03",
+        "referentiel": "REF DIG",
+        "image": "1747267238.jpeg",
+        "statut": "actif",
+        "nombre d'etudiant": "10 "
+    },
+    {
+        "nom": "Sonatel Academy Promo 1",
+        "date de debut": "2025-05-01",
+        "date de fin": "2025-06-01",
+        "referentiel": "DEV WEB\/MOBILE",
+        "image": "1747267711.png",
+        "statut": "inactif",
+        "nombre d'etudiant": "52 "
+    },
+    {
+        "nom": "Sonatel Academy Promo 2",
+        "date de debut": "2222-02-21",
+        "date de fin": "1152-02-20",
+        "referentiel": "REF DIG",
+        "image": "1747267966.jpg",
+        "statut": "actif",
+        "nombre d'etudiant": "21 "
+    },
+    {
+        "nom": "Telly tech 4",
+        "date de debut": "2006-01-01",
+        "date de fin": "2025-01-01",
+        "referentiel": "BIG DATA",
+        "image": "1747314184.jpeg",
+        "statut": "actif",
+        "nombre d'etudiant": "750 "
+    },
+    {
+        "nom": "Bibocom",
+        "date de debut": "2025-05-03",
+        "date de fin": "2025-05-31",
+        "referentiel": "MARKETING",
+        "image": "1747497796.jpg",
+        "nombre d'etudiant": " 20",
+        "statut": "inactif"
+    },
+    {
+        "nom": "Babacar",
+        "date de debut": "2025-05-04",
+        "date de fin": "2025-05-11",
+        "referentiel": "REF DIG",
+        "image": "1747523246.png",
+        "nombre d'etudiant": " 0",
+        "statut": "inactif"
+    }
+]

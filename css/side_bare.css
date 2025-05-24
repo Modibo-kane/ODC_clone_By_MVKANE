@@ -1,0 +1,87 @@
+
+/* .principale{ */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 3rem;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    border-right: orangered solid; */
+    /* padding: 1rem; */
+    /* transition: all 0.8s ease-in-out;
+    background-color: purple; */
+/* } */
+
+.logo-telly{
+    width: 80%;
+    text-align: center;
+}
+
+.logo-section{
+    background-color: rgba(255, 255, 255, 0.811);
+    padding-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.logo-blue{
+    font-size: 1.5rem;
+    display: flex;
+    color: rgba(30, 126, 245, 0.973);
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 80px;
+        height:80px;
+        object-fit: cover;
+    }
+}
+.promotion{
+    background-color: rgba(255, 77, 0, 0.343);
+    border: solid rgba(255, 77, 0, 0.243) 1px;
+    border-radius: 10px;
+   text-align: center;
+   width: auto;
+   display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.lign{
+    /* background-color: rgba(255, 77, 0, 0.243) ; */
+    font-size: 14px;
+    border-radius:5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: row;
+    /* border-left: 5px solid orange; */
+    &:hover{
+        background-color: rgba(19, 6, 0) ;
+        cursor: pointer;
+        color: #fff;
+    }
+    transition: all 0.5s ease-in-out;
+    padding-left: 30px;
+
+    i{
+        color: orange;
+    }
+}
+
+

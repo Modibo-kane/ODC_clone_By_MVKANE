@@ -1,0 +1,45 @@
+[
+    {
+        "image": "images\/ref1.jpg",
+        "statut": "incactif",
+        "nom": "D\u00e9veloppement Web",
+        "capacite": "30",
+        "description": "Formation compl\u00e8te en d\u00e9veloppement web.",
+        "sessions": "1 session"
+    },
+    {
+        "image": "images\/ref2.jpg",
+        "statut": "incactif",
+        "nom": "Big Data",
+        "capacite": "25",
+        "description": "Analyse des donn\u00e9es \u00e0 grande \u00e9chelle.",
+        "sessions": "2 sessions"
+    },
+    {
+        "id": 3,
+        "statut": "incactif",
+        "nom": "D\u00e9v\u00e9loppement web\/mobile",
+        "description": "essai 1",
+        "capacite": 10,
+        "sessions": "1 session",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "statut": "actincactifif",
+        "nom": "D\u00e9v\u00e9loppement web\/mobile",
+        "description": "bbvcnnbvnvbnnb",
+        "capacite": 56,
+        "sessions": "1 session",
+        "image": ""
+    },
+    {
+        "statut": "actif",
+        "id": "Ref5",
+        "nom": "D\u00e9v\u00e9loppement web\/mobile",
+        "description": "bfb",
+        "capacite": 445,
+        "sessions": "1 session",
+        "image": "682bdc84c26a1_pharmacy.png"
+    }
+]

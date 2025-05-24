@@ -1,0 +1,56 @@
+/* Style général du conteneur principal */
+.chart-container {
+    width: 100%;
+    height: 100%;
+    /* max-width: 1000px; */
+    padding: 0px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 30px; */
+    /* background-color: #ffffff; */
+    /* border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-sizing: border-box; */
+}
+
+/* Titre des statistiques */
+.titreStatistique {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Bloc contenant le sous-titre et le select */
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Paragraphe dans info-header */
+.info-header p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Le select pour trier */
+select[name="trierStatistique"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+}
+
+/* Graphique */
+#barChart{
+     flex-grow: 1;
+    cursor: progress;
+}
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+

@@ -1,0 +1,228 @@
+.contenuPromo2 {
+    width: 80%;
+    height:75vh;
+    gap: 10px;
+    padding: 20px;
+    /* padding-bottom:40px ; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    /* display: none; */
+    border-radius: 10px;
+    position: fixed;
+    overflow-y: scroll;
+    bottom: 0;
+    right: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    /* background-color: red; */
+}
+
+th {
+    padding: 10px;
+    color: #fff;
+    background-color: #FD9401;
+    text-align: start;
+}
+
+
+
+td {
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    text-align: start;
+    font-size: 14px;
+    border: none;
+}
+
+tr th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+tr th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tag{
+    width: auto;
+    padding: 2px 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(36, 248, 4, 0.2);
+}
+
+.tag:nth-child(2){
+    background-color: rgba(4, 69, 248, 0.2);
+}
+
+.tag:nth-child(3){
+    background-color: rgba(171, 4, 248, 0.2);
+}
+.tag:nth-child(4){
+    background-color: rgba(248, 118, 4, 0.2);
+}
+.tag:nth-child(5){
+    background-color: rgba(248, 4, 179, 0.2);
+}
+
+.btn-inactive{
+    background-color: rgba(248, 118, 4, 0.2);
+    color: #000;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgba(248, 4, 4, 0.5);
+    font-weight: 700;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(248, 4, 4, 0.5);
+    /* margin-right: 5px; */
+}
+
+.btn-active{
+    background-color:rgba(4, 179, 248, 0.15);
+    color: rgba(4, 179, 248, 0.5);
+    border:none;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(4, 179, 248, 0.5);
+    /* margin-right: 5px; */
+}
+
+.btn-more{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+    background-color: #ffff;
+    border:none;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.circleA{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(251, 3, 3, 0.8);
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.circleB{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(251, 3, 3, 0.8);
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.circleC{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(251, 3, 3, 0.8);
+    /* margin-right: 5px; */
+     margin-bottom: 2px;
+}
+
+
+.sousTableau{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pages select{
+     padding: 10px 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+}
+
+.page-btn {
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.page-btn:hover {
+  background-color: #ddd;
+}
+
+.page-btn.active {
+  background-color: #FD9401;
+  color: white;
+}
+
+.statutActif, .statutInactif {
+    padding: 10px;
+    width: auto;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.statutActif {
+    color: rgba(4, 220, 202, 0.8);
+    background-color: rgba(3, 235, 181, 0.2);
+}
+
+.statutInactif {
+    color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(255, 20, 3, 0.2);
+}
