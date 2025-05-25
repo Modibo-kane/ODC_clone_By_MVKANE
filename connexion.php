@@ -20,7 +20,7 @@
             echo "<p style='color: red;'>utilisateur_inexistant.</p>";
         }
       ?>
-    <form action="traitement/login.Traitement.php" method="post">
+    <form action="traitement/login.traitement.php" method="post">
       <h3>Se connecter</h3>
 
       <label for="email">Login <br> <input type="email" name="email" id="email" placeholder="Matricule ou email" required></label>
